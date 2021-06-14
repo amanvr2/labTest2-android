@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 import com.example.contact_aman_808782_android.room.Employee;
 import com.example.contact_aman_808782_android.room.EmployeeRoomDb;
-import com.example.contact_aman_808782_android.util.DatabaseHelper;
+//import com.example.contact_aman_808782_android.util.DatabaseHelper;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -23,9 +23,6 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-
-    // sqLite openHelper instance
-    DatabaseHelper sqLiteDatabase;
 
     private EmployeeRoomDb employeeRoomDb;
 

@@ -21,14 +21,14 @@ import android.widget.Toast;
 
 import com.example.contact_aman_808782_android.room.Employee;
 import com.example.contact_aman_808782_android.room.EmployeeRoomDb;
-import com.example.contact_aman_808782_android.util.DatabaseHelper;
+//import com.example.contact_aman_808782_android.util.DatabaseHelper;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class EmployeeActivity extends AppCompatActivity {
 
-    DatabaseHelper sqLiteDatabase;
+
     Button sendMessageBtn;
 
     private static final int SEND_SMS_PERMISSION_REQUEST_CODE = 111;
