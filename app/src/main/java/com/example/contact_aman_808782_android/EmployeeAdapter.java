@@ -67,9 +67,6 @@ public class EmployeeAdapter extends ArrayAdapter {
 
         EditText e = v.findViewById(R.id.etSearchName);
 
-        EditText mPhoneNoEt = v.findViewById(R.id.et_phone_no);
-
-
 
         final com.example.contact_aman_808782_android.room.Employee employee = employeeList.get(position);
         firstnameTV.setText(employee.getFirstName());
@@ -140,7 +137,7 @@ public class EmployeeAdapter extends ArrayAdapter {
             }
         });
 
-//
+
 //        v.findViewById(R.id.btn_dial).setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
@@ -186,8 +183,8 @@ public class EmployeeAdapter extends ArrayAdapter {
 
                         // Room
 
-                        employeeRoomDb.employeeDao().searchEmployee(firstName);
-                        loadEmployees();
+                        Employee searchData = employeeRoomDb.employeeDao().searchEmployee(firstName);
+                        sEmployees(searchData);
                     }
                 });
 
@@ -245,6 +242,13 @@ public class EmployeeAdapter extends ArrayAdapter {
     private void loadEmployees() {
 
         employeeList = employeeRoomDb.employeeDao().getAllEmployees();
+        notifyDataSetChanged();
+
+    }
+
+    private void sEmployees(Employee searchData) {
+
+        employeeList = List.of(searchData);
         notifyDataSetChanged();
 
     }

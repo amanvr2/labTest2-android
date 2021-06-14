@@ -48,7 +48,7 @@ public class EmployeeActivity extends AppCompatActivity {
 
 
         Button dial = findViewById(R.id.btn_dial);
-        final EditText mPhoneNoEt = findViewById(R.id.et_phone_no);
+
 
         // initializing the Telephony manager instance
         mTelephonyManager = (TelephonyManager) getSystemService(getApplicationContext().TELEPHONY_SERVICE);

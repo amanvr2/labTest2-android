@@ -25,6 +25,6 @@ public interface EmployeeDao {
     List<Employee> getAllEmployees();
 
     @Query("SELECT * from employee WHERE firstName = :firstName")
-    int searchEmployee(String firstName);
+    Employee searchEmployee(String firstName);
 
 }
