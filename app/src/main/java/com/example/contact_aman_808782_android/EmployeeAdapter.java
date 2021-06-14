@@ -22,7 +22,7 @@ import androidx.annotation.Nullable;
 
 import com.example.contact_aman_808782_android.room.Employee;
 import com.example.contact_aman_808782_android.room.EmployeeRoomDb;
-import com.example.contact_aman_808782_android.util.DatabaseHelper;
+
 
 import java.util.Arrays;
 import java.util.List;
@@ -35,7 +35,7 @@ public class EmployeeAdapter extends ArrayAdapter {
     int layoutRes;
     List<com.example.contact_aman_808782_android.room.Employee> employeeList;
 
-    DatabaseHelper sqLiteDatabase;
+   // DatabaseHelper sqLiteDatabase;
     EmployeeRoomDb employeeRoomDb;
 
 
