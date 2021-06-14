@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+
+
+    <LinearLayout
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="John"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Smith"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Smith@"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="india"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="50000"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#273"
+            android:text="Edit"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#833"
+            android:text="delete"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="238dp"
+        android:layout_height="249dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etSearchName"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:text="search" />
+
+        <EditText
+            android:id="@+id/et_phone_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_dial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dial" />
+    </LinearLayout>
+
+
+</LinearLayout>
+

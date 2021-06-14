@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">contact_aman_808782_android</string>
+    <string name="add_a_new_employee">Add a new Employee</string>
+    <string name="enter_employee_name">Enter Employee name</string>
+    <string name="enter_employee_salary">Enter Employee Salary</string>
+    <string name="view_employees">View Employees</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="edit_employee">Edit Employee</string>
+    <string name="select_department">Select Department</string>
+    <string name="update">Update</string>
+
+
+</resources>
